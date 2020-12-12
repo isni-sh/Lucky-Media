@@ -1,0 +1,106 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Raleway", sans-serif;
+}
+.header-content {
+  height: 100vh;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.img-header {
+  width: 100%;
+  height: 100vh;
+}
+.header-left {
+  margin-left: 15% !important;
+  max-width: 30%;
+}
+.text-header {
+  padding: 10vh 0 !important;
+}
+.thick-title {
+  font-size: 64px;
+  color: #644d38;
+  line-height: 75px;
+  font-style: normal;
+  font-weight: normal;
+}
+.bold-title {
+  font-size: 74px;
+  font-weight: bold;
+  color: #644d38;
+  line-height: 60px;
+  font-style: normal;
+  max-width: 25%;
+  padding: 3% 0 !important;
+}
+.descr-title {
+  color: #644d38;
+  font-size: 18px;
+}
+
+.email-content {
+  padding-top: 10vh !important;
+}
+
+#email-input {
+  border: 1px solid #644d38 !important;
+  border-radius: 10px 0px 0px 10px !important;
+  -webkit-border-radius: 10px 0px 0px 10px !important;
+  -moz-border-radius: 10px 0px 0px 10px !important;
+  -ms-border-radius: 10px 0px 0px 10px !important;
+  -o-border-radius: 10px 0px 0px 10px !important;
+}
+#email-btn {
+  background-color: #644d38;
+  color: #fff;
+  border-radius: 0px 10px 10px 0px;
+  -webkit-border-radius: 0px 10px 10px 0px;
+  -moz-border-radius: 0px 10px 10px 0px;
+  -ms-border-radius: 0px 10px 10px 0px;
+  -o-border-radius: 0px 10px 10px 0px;
+}
+/* Mobile Device */
+@media only screen and (max-width: 600px) {
+  .img-header {
+    width: 100%;
+    height: auto;
+  }
+  .header-left {
+    margin-left: 2% !important;
+    max-width: 95%;
+    margin-top: 2% !important;
+  }
+  .text-header {
+    padding: 5vh 0 !important;
+  }
+  .thick-title {
+    font-size: 54px;
+    color: #644d38;
+    line-height: 75px;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .bold-title {
+    font-size: 64px;
+    font-weight: bold;
+    color: #644d38;
+    line-height: 60px;
+    font-style: normal;
+    max-width: 25%;
+    padding: 3% 0 !important;
+  }
+  .descr-title {
+    color: #644d38;
+    font-size: 16px;
+  }
+
+  .email-content {
+    padding-top: 5vh !important;
+    width: 100%;
+  }
+}
